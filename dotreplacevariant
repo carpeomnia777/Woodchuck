@@ -1,0 +1,8 @@
+rhyme= "How much wood would a Woodchuck chuck if a woodchuck could chuck wood?"
+word=input("give compound word\n")
+nword=len(word)/2
+rword=int(nword)
+nhalf1=word[0:rword:1]
+nhalf2=word[rword::1]
+chuck=rhyme.replace("wood", nhalf1).replace("Woodchuck", word).replace("chuck", nhalf2)
+print(chuck)
