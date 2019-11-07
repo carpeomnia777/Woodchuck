@@ -1,0 +1,6 @@
+initial= (input("Give me a compound word, or any word.\n"))
+halfnum=len(initial)/2
+halfnew=int(halfnum)
+half1=initial[0:halfnew:1]
+half2=initial[halfnew::1]
+print(f"How much {half1} could a {half1}{half2} {half2} if a {half1}{half2} could {half2} {half1}")
